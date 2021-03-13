@@ -1,0 +1,20 @@
+// Rotated & Flipped Icons
+// -------------------------
+
+.#{$af-css-prefix}-rotate-90  { @include af-icon-rotate(90deg, 1);  }
+.#{$af-css-prefix}-rotate-180 { @include af-icon-rotate(180deg, 2); }
+.#{$af-css-prefix}-rotate-270 { @include af-icon-rotate(270deg, 3); }
+
+.#{$af-css-prefix}-flip-horizontal { @include af-icon-flip(-1, 1, 0); }
+.#{$af-css-prefix}-flip-vertical   { @include af-icon-flip(1, -1, 2); }
+
+// Hook for IE8-9
+// -------------------------
+
+:root .#{$af-css-prefix}-rotate-90,
+:root .#{$af-css-prefix}-rotate-180,
+:root .#{$af-css-prefix}-rotate-270,
+:root .#{$af-css-prefix}-flip-horizontal,
+:root .#{$af-css-prefix}-flip-vertical {
+  filter: none;
+}
