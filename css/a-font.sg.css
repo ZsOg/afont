@@ -4,17 +4,17 @@
 @font-face {
   font-family: 'AFont';
   src: url('../fonts/afont-webfont.sg.eot?v=2.0.0');
-  src: url('../fonts/afont-webfont.sg.eot?#iefix&v=2.0.0') format('embedded-opentype'), 
-  url('../fonts/afont-webfont.sg.woff2?v=2.0.0') format('woff2'), 
-  url('../fonts/afont-webfont.sg.woff?v=2.0.0') format('woff'), 
-  url('../fonts/afont-webfont.sg.ttf?v=2.0.0') format('truetype'), 
-  url('../fonts/afont-webfont.sg.svg?v=2.0.0#fontawesomeregular') format('svg');
+  src: url('../fonts/afont-webfont.sg.eot?#iefix&v=2.0.0') format('embedded-opentype'),
+  url('../fonts/afont-webfont.sg.woff2?v=2.0.0') format('woff2'),
+  url('../fonts/afont-webfont.sg.woff?v=2.0.0') format('woff'),
+  url('../fonts/afont-webfont.sg.ttf?v=2.0.0') format('truetype'),
+  url('../fonts/afont-webfont.sg.svg?v=2.0.0#afontregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 .af {
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
+  font: normal normal normal 14px/1 AFont;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
