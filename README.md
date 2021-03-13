@@ -1,3 +1,3 @@
 # afont
 
-Use afont with: https://stargolx.github.io/afont/css/a-font.css
+Use afont with: https://stargolx.github.io/afont/css/a-font.sg.css
