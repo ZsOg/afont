@@ -1,10 +1,10 @@
 # AFont
-## How to use?
-1. Copy this link: 
+## 如何使用？
+1. 复制这个链接： 
 ```
 https://stargolx.github.io/afont/css/a-font.sg.css
 ```
-2. (HTML) Put it into the "link", example: 
+2. 把链接放到 "link"(HTML) 或者其它文件格式。放一个HTML的例子: 
 ```html
 <link href="https://stargolx.github.io/afont/css/a-font.sg.css" type="stylesheet">
 ```
