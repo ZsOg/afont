@@ -1,14 +1,14 @@
-/* FONT PATH
+/* 图标路径
 * -------------------------- */
 
 @font-face {
   font-family: 'AFont';
-  src: url('../fonts/afont-webfont.eot');
-  src: url('../fonts/afont-webfont.eot') format('embedded-opentype'), 
-  url('../fonts/afont-webfont.woff2') format('woff2'), 
-  url('../fonts/afont-webfont.woff') format('woff'), 
-  url('../fonts/afont-webfont.ttf') format('truetype'), 
-  url('../fonts/afont-webfont.svg') format('svg');
+  src: url('../fonts/afont-webfont.sg.eot?v=2.0.0');
+  src: url('../fonts/afont-webfont.sg.eot?#iefix&v=2.0.0') format('embedded-opentype'), 
+  url('../fonts/afont-webfont.sg.woff2?v=2.0.0') format('woff2'), 
+  url('../fonts/afont-webfont.sg.woff?v=2.0.0') format('woff'), 
+  url('../fonts/afont-webfont.sg.ttf?v=2.0.0') format('truetype'), 
+  url('../fonts/afont-webfont.sg.svg?v=2.0.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -20,7 +20,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* makes the font 33% larger relative to the icon container */
+/* 使字体相对于图标容器大33% */
 .af-lg {
   font-size: 1.33333333em;
   line-height: 0.75em;
@@ -77,7 +77,7 @@
 .af.af-pull-right {
   margin-left: .3em;
 }
-/* Deprecated as of 4.4.0 */
+/* 不推荐使用 1.0.0 */
 .pull-right {
   float: right;
 }
@@ -179,8 +179,6 @@
 .af-inverse {
   color: #ffffff;
 }
-/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-   readers do not read off random characters that represent icons */
 .af-glass:before {
   content: "\f000";
 }

@@ -1,4 +1,4 @@
-// Bordered & Pulled
+// 带边框&拉
 // -------------------------
 
 .#{$af-css-prefix}-border {
@@ -6,19 +6,15 @@
   border: solid .08em $af-border-color;
   border-radius: .1em;
 }
-
 .#{$af-css-prefix}-pull-left { float: left; }
 .#{$af-css-prefix}-pull-right { float: right; }
-
 .#{$af-css-prefix} {
   &.#{$af-css-prefix}-pull-left { margin-right: .3em; }
   &.#{$af-css-prefix}-pull-right { margin-left: .3em; }
 }
-
-/* Deprecated as of 4.4.0 */
+/* 不推荐使用 1.0.0 */
 .pull-right { float: right; }
 .pull-left { float: left; }
-
 .#{$af-css-prefix} {
   &.pull-left { margin-right: .3em; }
   &.pull-right { margin-left: .3em; }

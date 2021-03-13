@@ -1,12 +1,11 @@
-// Base Class Definition
+// 基本类别定义
 // -------------------------
 
 .#{$af-css-prefix} {
   display: inline-block;
-  font: normal normal normal #{$af-font-size-base}/#{$af-line-height-base} FontAwesome; 
-  // shortening font declaration
-  font-size: inherit; // can't have font-size inherit on line above, so need to override
-  text-rendering: auto; // optimizelegibility throws things off #1094
+  font: normal normal normal #{$af-font-size-base}/#{$af-line-height-base} AFont; // 缩短字体声明
+  font-size: inherit; // 不能在上行继承font-size，因此需要覆盖。
+  text-rendering: auto; // 优化易读性 #1094
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -10,14 +10,12 @@
   -moz-osx-font-smoothing: grayscale;
 
 }
-
 .af-icon-rotate(@degrees, @rotation) {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=@{rotation})";
   -webkit-transform: rotate(@degrees);
       -ms-transform: rotate(@degrees);
           transform: rotate(@degrees);
 }
-
 .af-icon-flip(@horiz, @vert, @rotation) {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=@{rotation}, mirror=1)";
   -webkit-transform: scale(@horiz, @vert);
@@ -25,10 +23,9 @@
           transform: scale(@horiz, @vert);
 }
 
-
-// Only display content to screen readers. A la Bootstrap 4.
+// 仅向屏幕阅读器显示内容。Bootstrap 4
 //
-// See: http://a11yproject.com/posts/how-to-hide-content/
+// 查看：http://a11yproject.com/posts/how-to-hide-content/
 
 .sr-only() {
   position: absolute;
@@ -41,11 +38,9 @@
   border: 0;
 }
 
-// Use in conjunction with .sr-only to only display content when it's focused.
+// 与.sr-only结合使用仅在内容集合中显示内容。
 //
-// Useful for "Skip to main content" links; see http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
-//
-// Credit: HTML5 Boilerplate
+// 对于“跳过至主要内容”链接很有用; 查看：http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
 
 .sr-only-focusable() {
   &:active,
